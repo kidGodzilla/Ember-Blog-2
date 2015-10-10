@@ -1,0 +1,5 @@
+{{#each model as |post|}}
+  {{#blog-post post=post}}{{/blog-post}}
+{{/each}}
+
+{{#create-new-post newPost=model createPost="createPost"}}{{/create-new-post}}
