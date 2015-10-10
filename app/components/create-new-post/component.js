@@ -5,7 +5,7 @@ export default Ember.Component.extend({
     createPost: function (model) {
       this.sendAction('createPost', model);
 
-      //Clear each input field
+      // Clear each input field
       this.set('newPost.title', null);
       this.set('newPost.author', null);
       this.set('newPost.text', null);
